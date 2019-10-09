@@ -1,4 +1,4 @@
-module github.com/Morelatto/go-hspm
+module github.com/Morelatto/go-hpsm
 
 go 1.13
 

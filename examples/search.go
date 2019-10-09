@@ -8,11 +8,11 @@ func main() {
 	const password = ""
 	const baseURL = ""
 
-	tp := BasicAuthTransport{
+	tp := hpsm.BasicAuthTransport{
 		Username: username,
 		Password: password,
 	}
-	client, err := NewClient(tp.Client(), baseURL)
+	client, err := hpsm.NewClient(tp.Client(), baseURL)
 	if err != nil {
 		fmt.Printf("\nerror: %v\n", err)
 		return

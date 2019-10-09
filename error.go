@@ -1,14 +1,14 @@
-package main
+package hpsm
 
 import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/pkg/errors"
 	"io/ioutil"
 	"net/http"
 	"strings"
 )
+import "github.com/pkg/errors"
 
 // Error message from the Service Manager
 type Error struct {
